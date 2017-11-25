@@ -23,8 +23,6 @@
 
 
 
-    <link rel="dns-prefetch" href="https://busuanzi.ibruce.info"/>
-
 
 
 
@@ -178,22 +176,6 @@
 
 <!-- Fade Effect -->
 
-    <style>
-      .fade {
-        transition: all 800ms linear;
-        -webkit-transform: translate3d(0,0,0);
-        -moz-transform: translate3d(0,0,0);
-        -ms-transform: translate3d(0,0,0);
-        -o-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
-        opacity: 1;
-      }
-
-      .fade.out{
-        opacity: 0;
-      }
-    </style>
-
 
 <!-- Import Font -->
 <!-- Import Roboto -->
@@ -263,9 +245,13 @@
 
     <!-- Site Verification -->
     
-    
+    <meta name="baidu-site-verification" content="The fucking baidu like eatting shit very much" />
 
     <!-- RSS -->
+    
+        
+            <link rel=alternate type="application/atom+xml" href="atom.xml">
+        
     
 
     <!-- The Open Graph protocol -->
@@ -278,7 +264,7 @@
 
     
         <meta property="article:published_time" content="Fri Jun 23 2017 18:17:00 GMT+0800">
-        <meta property="article:modified_time" content="Mon Nov 20 2017 05:04:17 GMT+0000">
+        <meta property="article:modified_time" content="Sat Nov 25 2017 12:18:36 GMT+0000">
     
 
     <!-- The Twitter Card protocol -->
@@ -301,15 +287,15 @@
     "mainEntityOfPage": "https://neko-dev.github.io/material-demo/2017/06/23/hello-world.html",
     "headline": "Hello World",
     "datePublished": "Fri Jun 23 2017 18:17:00 GMT+0800",
-    "dateModified": "Mon Nov 20 2017 05:04:17 GMT+0000",
+    "dateModified": "Sat Nov 25 2017 12:18:36 GMT+0000",
     "author": {
         "@type": "Person",
         "name": "neko-dev",
         "image": {
             "@type": "ImageObject",
-            "url": "https://avatars2.githubusercontent.com/u/26917678?v=4&amp;s=200"
+            "url": "/img/avatar.png"
         },
-        "description": "This is the test of Material Theme"
+        "description": "The test demo of Material Theme"
     },
     "publisher": {
         "@type": "Organization",
@@ -431,7 +417,7 @@
 
     <!-- Author Avatar -->
     <div id="author-avatar">
-        <img src="https://avatars2.githubusercontent.com/u/26917678?v=4&s=200" width="44px" height="44px" alt="Author Avatar"/>
+        <img src="/material-demo/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
     </div>
     <!-- Author Name & Date -->
     <div>
@@ -458,7 +444,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">在其它设备中阅读本文章</li>
     
-        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=https://neko-dev.github.io/2017/06/23/hello-world.html">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACaElEQVR42u3aQVLDMBAEwPz/0/AAiJlZRYqB9ilVOM62DtYyq8fHn74eeHh4eHh4eHh4N+M94uvrt755dHD/syc/+1ZdGx4eHt4R3g+v2uCe69Jnz5/VhoeHh3eSl7yyn91/fWeyHNelF9sJHh4e3i15SVmz1hkPDw/v//CSwGLGxsPDw7szL/mHP2+ak0gib6kPZS14eHh4MS8fMp3/fHS+h4eHhxfw2qttu1e2jWGFeHh4eJt5+Ys4H1C1xwiulyyvBw8PD+8kbzaUelWAmyxQ8Rw8PDy8g7yVAGIWwl7fOfxdPDw8vCO8vKz8gFTegq+03Xh4eHjnebMmeDjULwddLQwPDw/vDG/WTOev75WjAMNQAw8PD+9NvNfGE7OwOKEuZS14eHh4I14eH7SLkuCTLWQpxsXDw8PbxsvDgpW/tq329ebxdMnw8PDw3srLfyZvkRNwUkMURuDh4eFt5rWwNqJtDyjkwQQeHh7e3XhJlJC/yvMFGi4cHh4e3kHeLFCow4LyQEAbUuDh4eHt5s0e1w7721HZygECPDw8vDO8pMluh/rJtjFrrOszZXh4eHjbeEkps5d+Pr5qY5FiY8DDw8PbwJsdsboGJAXNIo/hvoeHh4e3zGuvdpCf4JMWP18sPDw8vN282XCrHfCvB7vDQ1d4eHh423grMe7KUa2VZr04OoCHh4e3jbfyQs9LXAmFXzYAw8PDwzvOa9vxWYzb1omHh4f3W3izDWC9ya7DCDw8PLwNvCSMaAtKSO2YbWOMi4eHh7dhAJa3tvkits10HUbg4eHhvZT39y48PDw8PDw8PLwbXJ81Vz7a9eQ9LgAAAABJRU5ErkJggg==">
     
 </ul>
 
@@ -476,17 +462,6 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
     
 
-    
-        
-            <!-- Busuanzi Views -->
-            <a class="post_share-link" href="#">
-                <li class="mdl-menu__item">
-                    <span id="busuanzi_container_page_pv">
-                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
-                    </span>
-                </li>
-            </a>
-        
     
 
     <!-- Share Weibo -->
@@ -638,12 +613,12 @@
 
     <!-- Sidebar Avatar -->
     <div class="sidebar-image">
-        <img src="https://avatars2.githubusercontent.com/u/26917678?v=4&amp;s=200" alt="neko-dev's avatar">
+        <img src="/material-demo/img/avatar.png" alt="neko-dev's avatar">
     </div>
 
     <!-- Sidebar Email -->
     <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
-        vio@nekodev.io
+        neo@nekodev.io
         <b class="caret"></b>
     </a>
 </div>
@@ -717,6 +692,18 @@
     
 
     <!-- Pages  -->
+    
+        <li>
+            <a href="/gallery/" title="Gallery">
+                
+                    <i class="material-icons sidebar-material-icons">insert_photo</i>
+                
+                Gallery
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
     
 
     <!-- Article Number  -->
@@ -869,6 +856,11 @@ It will not impact the appearance and can give developers a lot of support :)
         <div id="copyright">
             Copyright&nbsp;©&nbsp;2016&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>Material Theme
             
+                <br>
+                
+                    <a href="https://github.com/neko-dev/hexo-theme-test-ci" rel="nofollow">hexo-theme-test-ci</a>
+                
+            
         </div>
 
         <!-- Paradox Footer Right Section -->
@@ -930,9 +922,6 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
-
-    <!-- Busuanzi -->
-    <script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

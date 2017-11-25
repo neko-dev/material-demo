@@ -23,8 +23,6 @@
 
 
 
-    <link rel="dns-prefetch" href="https://busuanzi.ibruce.info"/>
-
 
 
 
@@ -178,22 +176,6 @@
 
 <!-- Fade Effect -->
 
-    <style>
-      .fade {
-        transition: all 800ms linear;
-        -webkit-transform: translate3d(0,0,0);
-        -moz-transform: translate3d(0,0,0);
-        -ms-transform: translate3d(0,0,0);
-        -o-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
-        opacity: 1;
-      }
-
-      .fade.out{
-        opacity: 0;
-      }
-    </style>
-
 
 <!-- Import Font -->
 <!-- Import Roboto -->
@@ -263,9 +245,13 @@
 
     <!-- Site Verification -->
     
-    
+    <meta name="baidu-site-verification" content="The fucking baidu like eatting shit very much" />
 
     <!-- RSS -->
+    
+        
+            <link rel=alternate type="application/atom+xml" href="atom.xml">
+        
     
 
     <!-- The Open Graph protocol -->
@@ -307,9 +293,9 @@
         "name": "neko-dev",
         "image": {
             "@type": "ImageObject",
-            "url": "https://avatars2.githubusercontent.com/u/26917678?v=4&amp;s=200"
+            "url": "/img/avatar.png"
         },
-        "description": "This is the test of Material Theme"
+        "description": "The test demo of Material Theme"
     },
     "publisher": {
         "@type": "Organization",
@@ -422,7 +408,7 @@
 
     <!-- Author Avatar -->
     <div id="author-avatar">
-        <img src="https://avatars2.githubusercontent.com/u/26917678?v=4&s=200" width="44px" height="44px" alt="Author Avatar"/>
+        <img src="/material-demo/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
     </div>
     <!-- Author Name & Date -->
     <div>
@@ -449,7 +435,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">在其它设备中阅读本文章</li>
     
-        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=https://neko-dev.github.io/2017/08/21/material-public-cdn.html">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACYElEQVR42u3aQW7jMBAEQP//05sHLJx0j6ixYBRPQWBJLB7IQXNe/756vPDw8PDw8PDw8B7Ge8UjenXw+3dv/v+p2dzw8PDwdnjJpJMPv0O+nUqwEPXc8PDw8BZ5yZbdbuhXDpJ2bnh4eHjP5yUHxvWn8PDw8L6b127uyQGDh4eH92ReO8U2JkgOgw9nLXh4eHgxL79k2v979X4PDw8PL+C142zZ3V6JRTPEw8PDu5mXb8T5cVLHB/EboiXDw8PDu5n3e8SQNxDk/8+fzcF4eHh4n+IlbVU7TVd5CFIcDHh4eHiHePkrko17Fmq0X8fDw8N7Aq8tnU81B8wiiTrGxcPDwzvKyyeUUNuW07xdtfgiHh4e3jrv+jadF9+za7M/vo6Hh4d3My/ZoGfRw+yQaNtk8fDw8PZ5swuwWdQ72/TbQAQPDw9vn5cHAe2xkZTps8XCw8PD2+flF/anWlSLVoC46MfDw8P7FK9tfroUHMRvS36Jh4eHt8+rr5rijX4WYQwLcTw8PLybedcL5VlhPSu4k9AEDw8Pb4eXHBV5o1UdH5SL+0eLAx4eHt4irw0jZq0Gs6iiKNDx8PDwFnltxDCbUHsIHQgj8PDw8I7y2nGqCaBdiPyCDQ8PD+9uXhuw5h/Lw4tZaf52EfHw8PBWeG0zQXvBn0e9bUx87AIMDw8Pb8SbTbEtiJPly8OI4QUYHh4e3od4swgjiTOuhMt4eHh4z+S18cGVcrxeSjw8PLxFXlLy5u0CSZGdP7UU4+Lh4eHdcAHW/r9doNllGx4eHt4m7/sGHh4eHh4eHh7eA8YPWdmlgZreJeUAAAAASUVORK5CYII=">
     
 </ul>
 
@@ -476,17 +462,6 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
     
 
-    
-        
-            <!-- Busuanzi Views -->
-            <a class="post_share-link" href="#">
-                <li class="mdl-menu__item">
-                    <span id="busuanzi_container_page_pv">
-                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
-                    </span>
-                </li>
-            </a>
-        
     
 
     <!-- Share Weibo -->
@@ -564,10 +539,10 @@
         <p>Material 主题新的 MaterialCDN 公共 CDN 服务。</p>
 <a id="more"></a>
 <p>为了加速主题的访问，Material 主题于 1.3.2 版本开始，内置了 MaterialCDN 功能的支持。</p>
-<p>为了满足没有自己的 CDN 的用户的加速需求，Material 主题将于 1.5.0 版本开始正式支持使用第三方公共 CDN 服务加载第三方库如 jQuery、Material-Design-Icons，NProgeres 等，届时<a href="https://material.viosey.com" target="_blank" rel="noopener">主题文档</a>将会介绍。</p>
+<p>为了满足没有自己的 CDN 的用户的加速需求，Material 主题将于 1.5.0 版本开始正式支持使用第三方公共 CDN 服务加载第三方库如 jQuery、Material-Design-Icons，NProgeres 等，届时 <a href="https://material.viosey.com" target="_blank" rel="noopener"> 主题文档 </a> 将会介绍。</p>
 <p>对于 Material 主题中并未使用的第三方库文件如 <code>material.css</code> <code>style.css</code> 等，现在也可以使用全新的公共 CDN！</p>
 <blockquote>
-<p><a href="https://www.jsdelivr.com" target="_blank" rel="noopener">jsDelivr</a> 是一家公共 CDN 服务，支持从 GItHub Release 和 NPM 抓取文件并由 CDN 分发，拥有国内外 1000+ 节点，由网宿、CloudFlare、Fastly、MaxCDN 等多家著名 CDN 服务商提供支持。阅读 <a href="https://github.com/jsdelivr/jsdelivr#usage" target="_blank" rel="noopener">jsDelivr 的文档</a>以了解 jsDelivr 的更多用法。</p>
+<p><a href="https://www.jsdelivr.com" target="_blank" rel="noopener">jsDelivr</a> 是一家公共 CDN 服务，支持从 GItHub Release 和 NPM 抓取文件并由 CDN 分发，拥有国内外 1000+ 节点，由网宿、CloudFlare、Fastly、MaxCDN 等多家著名 CDN 服务商提供支持。阅读 <a href="https://github.com/jsdelivr/jsdelivr#usage" target="_blank" rel="noopener">jsDelivr 的文档 </a> 以了解 jsDelivr 的更多用法。</p>
 </blockquote>
 <p>请确保你的 Material 主题为当前最新版，然后在 主题配置文件 中找到 materialcdn，填入 <code>https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source</code> 即可使用 Material 主题的公共 CDN 服务。</p>
 <blockquote>
@@ -639,12 +614,12 @@
 
     <!-- Sidebar Avatar -->
     <div class="sidebar-image">
-        <img src="https://avatars2.githubusercontent.com/u/26917678?v=4&amp;s=200" alt="neko-dev's avatar">
+        <img src="/material-demo/img/avatar.png" alt="neko-dev's avatar">
     </div>
 
     <!-- Sidebar Email -->
     <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
-        vio@nekodev.io
+        neo@nekodev.io
         <b class="caret"></b>
     </a>
 </div>
@@ -718,6 +693,18 @@
     
 
     <!-- Pages  -->
+    
+        <li>
+            <a href="/gallery/" title="Gallery">
+                
+                    <i class="material-icons sidebar-material-icons">insert_photo</i>
+                
+                Gallery
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
     
 
     <!-- Article Number  -->
@@ -870,6 +857,11 @@ It will not impact the appearance and can give developers a lot of support :)
         <div id="copyright">
             Copyright&nbsp;©&nbsp;2016&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>Material Theme
             
+                <br>
+                
+                    <a href="https://github.com/neko-dev/hexo-theme-test-ci" rel="nofollow">hexo-theme-test-ci</a>
+                
+            
         </div>
 
         <!-- Paradox Footer Right Section -->
@@ -931,9 +923,6 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
-
-    <!-- Busuanzi -->
-    <script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
