@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search> 
   
+  
     
     <entry>
       <title>Material 主题公共 CDN 服务</title>
@@ -25,6 +26,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>Hello World</title>
       <link href="/material-demo/2017/06/23/hello-world.html"/>
@@ -36,8 +39,10 @@
       
     </entry>
     
+    
   
   
+    
     
     <entry>
       <title>Gallery 图库</title>
@@ -47,6 +52,7 @@
         <content type="html"><![CDATA[]]></content>
       
     </entry>
+    
     
   
 </search>
